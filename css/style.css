@@ -1,0 +1,29 @@
+* {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+    position: absolute;
+    left: 67px;
+}
+
+.controls {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    left: 67px;
+}
+
+.chart {
+    font-size: 10px;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.bar {
+    fill: #6db33f;
+}
